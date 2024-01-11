@@ -29,12 +29,6 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
           quantity: 1
         },
       ],
-      shipping_address_collection: {
-        allowed_countries: ['IN'], // Allow only countries outside India for shipping
-        collect_full_name: true, // Collect customer's full name
-        collect_phone: true, // Collect customer's phone number
-        collect_address: true, // Collect customer's address
-      },
       metadata: {
         eventId: order.eventId,
         buyerId: order.buyerId,
