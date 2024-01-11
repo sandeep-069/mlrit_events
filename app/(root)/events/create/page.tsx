@@ -25,7 +25,7 @@ const CreateEvent = () => {
   )
 }
 return( <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
-<h3 className="wrapper h3-bold text-center sm:text-left">Contact us to host events</h3>
+  <center><h3 className="wrapper h3-bold text-center sm:text-left">Contact us to host events</h3></center>
 </section>)
 }
 
