@@ -74,7 +74,7 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
             <p className="p-bold-20 text-grey-600">What You'll Learn:</p>
             <p className="p-medium-16 lg:p-regular-18">{event.description}</p>
             {/* <p className="p-medium-16 lg:p-regular-18 truncate text-primary-500 underline">{event.url}</p> */}
-            <a href={event.url} target="_blank" rel="noopener noreferrer">{event.url}</a>
+            <a style={{color:"blue"}} href={event.url} target="_blank" rel="noopener noreferrer">{event.url}</a>
           </div>
         </div>
       </div>
