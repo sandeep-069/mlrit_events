@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Events Hub',
   description: 'Events Hub is a platform for event management.',
   icons: {
-    icon: ''
+    icon: null
   }
 }
 

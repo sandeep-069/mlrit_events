@@ -25,7 +25,7 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-          <h3 className="h3-bold">Events Hub</h3>
+          <h4 className="h4-bold">Events Hub</h4>
           <Separator className="border border-gray-50" />
           <NavItems />
         </SheetContent>
