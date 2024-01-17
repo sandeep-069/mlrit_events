@@ -25,12 +25,13 @@ const MobileNav = () => {
           />
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-          <Image 
+          {/* <Image 
             src="/assets/images/logo.svg"
             alt="logo"
             width={128}
             height={38}
-          />
+          /> */}
+          <h3>Events Hub</h3>
           <Separator className="border border-gray-50" />
           <NavItems />
         </SheetContent>
