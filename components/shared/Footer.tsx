@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="border-t">
       <div className="flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row">
         <Link href='/'>
-          <h4 className="h4-bold">Events Hub</h4>
+          <h1>Events Hub</h1>
         </Link>
 
         <p>2024 Events Hub.</p>
