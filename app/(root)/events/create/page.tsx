@@ -7,7 +7,7 @@ const CreateEvent = () => {
   const userId = sessionClaims?.userId as string;
 
   const admin = {
-    id : ['659fb4e847dda8ad35cbe851','659fd1c3a3b1509fbb2e99b0']
+    id : ['659fb4e847dda8ad35cbe851','659fd1c3a3b1509fbb2e99b0', '65a782ab9affdaf7e2c2d257']
   }
 
   if(admin.id.includes(userId)){
