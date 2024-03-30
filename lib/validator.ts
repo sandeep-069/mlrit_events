@@ -12,3 +12,7 @@ export const eventFormSchema = z.object({
   isFree: z.boolean(),
   url: z.string().url()
 })
+
+export const commentBoxSchema = z.object({
+  desc: z.string().min(5, 'Comment must be at least 5 characters').max(500, 'Comment must be less than 500 characters'),
+})

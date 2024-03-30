@@ -9,8 +9,8 @@ const Header = () => {
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
-        <Link href="/" className="w-36">
-          <h1>Events Hub</h1>
+        <Link href="/" className="w-full max-w-xl">
+          <h1 className="text-4xl font-black font-style: normal">Events Hub</h1>
         </Link>
 
         <SignedIn>
